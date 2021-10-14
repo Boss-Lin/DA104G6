@@ -1,0 +1,95 @@
+
+		body {
+			margin: 0;
+			width: 100%;
+			height: 100vh;
+			font-family: "Noto Bold", sans-serif;
+			background: linear-gradient(-45deg, #ffcc43, #f8ea8c, #a3e8df, #38bc46);
+			background-size: 400% 400%;
+			animation: gradientBG 15s ease infinite;
+		}
+
+		@keyframes gradientBG {
+			0% {
+				background-position: 0 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0 50%;
+			}
+		}
+
+		#LeftCol {
+			background-color: rgba(255, 255, 255, 0.7);
+			border-radius: 30px;
+		}
+
+
+		.titleimg {
+			margin-top: 32px;
+			padding: 0;
+		}
+
+		.info-container {
+			height: 100px;
+		}
+
+		.googleMap {
+			padding: 0;
+		}
+
+		.imgcon, #map {
+			height: 400px;
+			padding: 2px;
+		}
+
+		.imgcon img {
+			max-width: 600px;
+			max-height: 399px;
+		}
+
+		.titlejum {
+			margin-bottom: 10px;
+			padding-bottom: 30px;
+			background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+		}
+
+		.adderror {
+			color: red;
+
+		}
+
+		.addBody {
+			background-color: rgba(255, 255, 255, 0.1);
+		}
+
+		#addGroupPage {
+			margin-top: 15vh;
+		}
+
+		.btn-primary , .btn-info , .btn-secondary {
+			width: 120px;
+			font-size: 22px;
+		}
+
+
+		.btn.btn-primary {
+			background-color: #8fd19e;
+			border-color: #8fd19e;
+			transition: 0.3s all;
+		}
+
+		.btn.btn-primary:hover {
+			background-color: #EAB965;
+			border-color: #EAB965;
+		}
+
+		.updateInfo{
+			height: 100px;
+		}
+
+		.updateError{
+			color: red;
+		}

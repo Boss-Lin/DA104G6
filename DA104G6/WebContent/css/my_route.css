@@ -1,0 +1,83 @@
+      #myroute table {
+        width: 100%;
+        table-layout: fixed;
+      }
+      .tbl-header {
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+      .tbl-content {
+        height: 260px;
+        overflow-x: auto;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        background-color: rgba(120, 125, 105, 0.3);
+      }
+      #myroute th {
+        padding: 5px 5px;
+        color: #333;
+        text-align: center;
+      }
+      #myroute td {
+        vertical-align: middle;
+        color: #FFF;
+        font-weight:bold;
+        border-bottom: solid 1px rgba(255, 255, 255, 0.5);
+        text-align: center;
+        padding: 5px;
+      }
+      #myroute td form{
+        margin: 0;
+      }
+     #myroute tr:hover{
+        color: #333;
+        background-color: rgba(21,150,155,0.2);
+      }
+
+      section {
+        margin: 30px;
+      }
+
+      #MyRoute ::-webkit-scrollbar {
+        width: 6px;
+      }
+      #MyRoute ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+      #MyRoute ::-webkit-scrollbar-thumb {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      }
+
+      .blueButton {
+        -moz-box-shadow: inset 0px -3px 7px 0px #29bbff;
+        -webkit-box-shadow: inset 0px -3px 7px 0px #29bbff;
+        box-shadow: inset 0px -3px 7px 0px #29bbff;
+        background-color: #0088bb;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        border: 1px solid #0088bb;
+        cursor: pointer;
+        color: #fff;
+        font-size:15px;
+        padding: 9px 10px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #263666;
+    }
+
+    .blueButton:hover {
+        background-color: #369cb8;
+    }
+
+    .blueButton:active {
+        position: relative;
+        top: 1px;
+    }
+
+    .btn-info {
+        background-color: #498693;
+        border-color: #498693;
+    }
+
+    .btn-info:hover {
+        background-color: #EAB965;
+        border-color: #EAB965;
+    }

@@ -1,0 +1,173 @@
+     html , body {
+         width: 100%;
+         height: 100%;
+
+     }
+
+
+     /*導覽列更動*/
+
+     #ManagerNav {
+
+     }
+
+     #ManagerNav img {
+         margin-bottom: 0.3em;
+         margin-right: 0.3em;
+         width: 30px;
+         height: 30px;
+     }
+
+     /*導覽列更動*/
+
+     /*管理員首頁*/
+
+     .container-fluid {
+         padding-left: 0;
+         padding-right: 0;
+     }
+
+     #ManagerFrontPage {
+         background: url("/DA104G6/images/bikeStock6-1.jpg")  center center / cover;
+     }
+
+     #ManagerWhiteBoard {
+         margin-top: 45px;
+         margin-bottom: 10px;
+         background-color: rgba(93,193,148,0.6);
+         border-radius: 50px;
+     }
+
+     #Logo {
+         display: none;
+     }
+
+     #Logo img {
+         width: 180px;
+         height: 180px;
+     }
+
+     .main
+     {
+         width:100%;
+         height:auto;
+         border-bottom:5px #323233 solid;
+         background:#fff;
+         text-align:center;
+         border-radius:10px;
+         overflow:hidden;
+         position:relative;
+         margin-bottom:28px;
+         font-family: "Noto Bold", sans-serif;
+         display: none;
+     }
+
+
+     .main img
+     {
+         /*border-radius:50%;*/
+         margin-bottom:10px;
+         width: 90px;
+     }
+
+     .main h3
+     {
+         font-size:20px;
+         font-weight:700;
+     }
+
+     .back
+     {
+         width:100%;
+         height:100%;
+         position:absolute;
+         top:0;
+         left:0;
+         text-align:center;
+         background:#6c757d;
+         font-size: 22px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+     }
+     
+     #ManagerPic {
+     	object-fit: cover;
+     }
+
+     .back ul {
+         padding-left: 0;
+         margin-bottom: 0;
+     }
+
+     .main .back img {
+         width: 290px;
+         height: auto;
+     }
+
+     a {
+         color: #fff;
+     }
+
+     a:hover {
+         text-decoration: none;
+         color: #8fd19e;
+         transition: 0.3s all;
+     }
+
+     #EditProfileForm {
+         color: #FFF;
+         margin-top: 0.95em;
+     }
+
+     #EditProfileForm:hover {
+         color: #8fd19e;
+         cursor: pointer;
+         /*transition: 0.3s all;*/
+     }
+
+     .front
+     {
+         width:100%;
+         height:auto;
+         position:relative;
+         z-index:10;
+         background:#fff;
+         padding:15px;
+         bottom:0;
+         transition: all 0.5s ease;
+     }
+
+     .main:hover .front
+     {
+         bottom:-200px;
+         transition: all 0.5s ease;
+     }
+
+     .main:hover
+     {
+         border-color:#777;
+         transition:0.5s;
+     }
+
+     #LogOut img {
+         width: 90px;
+     }
+
+     figure {
+         max-width: 90px;
+         max-height: 90px;
+         overflow: hidden;
+         border-radius: 50%;
+         margin-block-start: 0;
+         margin-block-end: 0;
+         margin-inline-start: 0;
+         margin-inline-end: 0;
+         margin: 5px auto;
+     }
+
+     /*our-team-main*/
+
+
+     /*管理員首頁*/
+

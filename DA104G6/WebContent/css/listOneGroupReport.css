@@ -1,0 +1,52 @@
+    body {
+        font-family: "Noto Bold", sans-serif;
+    }
+
+    #Title {
+        font-family: "Noto Bold", sans-serif;
+        color: #0b2e13;
+        margin-top: 1vh;
+        margin-bottom: 5vh;
+    }
+
+    #ManagerProfile , #ManagerPermission {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        padding: 30px;
+    }
+
+    #ManagerPasswordUpdate {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        padding: 30px;
+        min-height: 38vh;
+    }
+
+    #ManagerProfilePic {
+        max-width: 150px;
+        max-height: 150px;
+        border: 5px solid #000;
+        border-radius: 10px;
+    }
+
+    #UploadButton {
+        width: 30px;
+        height: 30px;
+    }
+
+    #Proof {
+        max-width: 400px;
+        max-height: 400px;
+    }
+
+    .btn.btn-info {
+        background-color: #0c5460;
+        border-color: #0c5460;
+    }
+
+    .btn.btn-info:active:hover,
+    .btn.btn-info:hover {
+        background-color: #498693;
+        border-color: #498693;
+    }
+

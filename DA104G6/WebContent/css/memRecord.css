@@ -1,0 +1,116 @@
+    /*會員中間開始*/
+
+    #RecordProgress {
+        height: 20%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #RecordProgress p{
+        color: #FFF;
+        font-family: "Noto Bold", sans-serif;
+        font-size: 1.5em;
+        margin-bottom: 0;
+    }
+
+    #RecordProgress img {
+        width: 35px;
+        height: 35px;
+    }
+
+    hr {
+        border-top: 5px solid rgba(234,185,101,0.84);
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    #RankBottom {
+        position: relative;
+        left: -11px;
+    }
+
+    #RankBottom img{
+        width: 100px;
+        height: 80px;
+    }
+
+    #RankBottom p {
+        position: absolute;
+        top: -7px;
+        left: 10%;
+        font-family: "Noto Bold", sans-serif;
+        font-size: 1.1em;
+        color: #FFF;
+    }
+
+    #RankTop {
+        position: relative;
+        left: 81%;
+    }
+
+    #RankTop img{
+        width: 100px;
+        height: 80px;
+    }
+
+    #RankTop p {
+        position: absolute;
+        top: -7px;
+        left: 10%;
+        font-family: "Noto Bold", sans-serif;
+        font-size: 1.1em;
+        color: #FFF;
+    }
+
+    .progress {
+        font-family: "Noto", sans-serif;
+        font-size: 1.2em;
+        height: 30px;
+    }
+
+    .progress-bar {
+        background-color: #1c7430;
+    }
+
+    #RecordLatest3 {
+        font-family: "Noto Bold", sans-serif;
+
+    }
+
+    #RecordLatest3 table thead {
+        font-size: 20px;
+    }
+
+    #RecordLatest3 table th {
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    #RecordLatest3 table th,td {
+        vertical-align: middle !important;
+    }
+
+    #RecordLatest3 table td {
+        color: #FFF;
+    }
+
+    #RecordLatest3 table td img {
+        border: 3px solid #FFF;
+    }
+
+    .recordBtn {
+        background-color: #498693;
+        border-color: #498693;
+        width: 90px;
+        height: 38px;
+        font-size: 16px;
+    }
+
+    .routeModal {
+        font-family: "Noto Bold", sans-serif;
+    }
+
+    #RecordLatest3 .table td, #RecordLatest3 .table th {
+        padding: 0.6rem;
+    }
+

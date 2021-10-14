@@ -1,0 +1,39 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+    <div class="col-12 text-center">
+
+        <div class="row justify-content-center">
+
+            <div class="col-2"></div>
+
+            <div class="col-4 text-right">
+                <%if (rowsPerPage<rowNumber) {%>
+                <%if(pageIndex>=rowsPerPage){%> <%--當所在頁面首筆資料索引值 > 每頁顯示筆數--%>
+                <A href="<%=request.getContextPath()%>/mem/mem.do?whichPage=1&action=listMem_ByCompositeQuery">第一頁</A>&nbsp;
+                <A href="<%=request.getContextPath()%>/mem/mem.do?whichPage=<%=whichPage-1%>&action=listMem_ByCompositeQuery">上一頁 </A>&nbsp;
+                <%}%>
+            </div>
+            <div class="col-4 text-left">
+                <%if(pageIndex<pageIndexArray[pageNumber-1]){%>
+                <A href="<%=request.getContextPath()%>/mem/mem.do?whichPage=<%=whichPage+1%>&action=listMem_ByCompositeQuery">下一頁 </A>&nbsp;
+                <A href="<%=request.getContextPath()%>/mem/mem.do?whichPage=<%=pageNumber%>&action=listMem_ByCompositeQuery">最後一頁</A>&nbsp;
+                <%}%>
+                <%}%>
+            </div>
+
+            <div class="col-2">
+                <%if (pageNumber>1) {%>
+                <form method="post" action="<%=request.getContextPath()%>/mem/mem.do">
+                    <select class="custom-select" size="1" name="whichPage" id="SelectPage">
+                        <option selected>選擇頁數</option>
+                        <%for (int i=1; i<=pageNumber; i++){%>
+                        <option value="<%=i%>">第<%=i%>頁</option>
+                        <%}%>
+                    </select>
+                    <input type="hidden" name="action" value="listMem_ByCompositeQuery">
+                </form>
+                <%}%>
+            </div>
+
+        </div>
+    </div>

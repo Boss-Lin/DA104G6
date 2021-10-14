@@ -1,0 +1,99 @@
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        font-family: "Noto Bold", sans-serif;
+        color: #0c5460;
+        background: linear-gradient(-135deg, #9CFDD1, #5DC194, #287AAE, #5EBBF6);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+    }
+
+    @keyframes gradientBG {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+
+    /*搜尋部位*/
+
+    #SearchPlace {
+        height: 15vh;
+        margin-top: 10vh;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 20px;
+    }
+
+    #GoogleTitle {
+        height: 15vh;
+        margin-top: 10vh;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 20px;
+        padding-top: 36px;
+    }
+
+    /*搜尋部位*/
+
+    /*結果部位*/
+
+    #ResultPage {
+        margin-top: 2vh;
+        height: 72vh;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 20px;
+        font-size: 22px;
+    }
+
+    #SearchWithGoogle {
+        margin-top: 2vh;
+        height: 72vh;
+        background-color: rgba(255, 255, 255, 0.6);
+        border-radius: 20px;
+        font-size: 25px;
+    }
+
+    #ResultContainer img {
+        max-width: 250px;
+        max-height: 250px;
+        border: 4px solid #FFF;
+        border-radius: 10px;
+        transition: 0.3s all;
+    }
+
+    #ResultContainer {
+        overflow-y: auto;
+        max-height: 585px;
+    }
+
+    #ResultContainer a {
+        color: #0d8e9b;
+        transition: 0.3s all;
+    }
+
+    #ResultContainer a:hover {
+        color: #EAB965;
+    }
+
+    #ResultContainer img:hover {
+        box-shadow:5px 5px 6px 3px #999999
+    }
+
+
+    /*結果部位*/
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+    ::-webkit-scrollbar-thumb {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }

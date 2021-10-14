@@ -1,0 +1,43 @@
+
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        color: #fff;
+        background: linear-gradient(-45deg, #ffcc43 , #f8ea8c ,  #a3e8df , #38bc46);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+    }
+
+    @keyframes gradientBG {
+        0% {
+            background-position: 0 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0 50%;
+        }
+    }
+
+
+
+    #order_detail {
+        height: 74vh;
+    }
+
+    .table {
+        font-size: 21px;
+    }
+
+    .review {
+        background-color: #498693;
+        border-color: #498693;
+        width: 90px;
+        font-size: 18px;
+    }
+
+    .modal {
+        color: #000;
+    }

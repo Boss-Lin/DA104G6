@@ -1,0 +1,45 @@
+	.reviewBody{
+		margin: 0;
+		font-size: 20px;
+		color: #FFF;
+	}
+
+	#ReviewTableBody{
+		margin-right: -32px;
+		font-family: "Noto Bold", sans-serif;
+	}
+
+	.reviewGroupBtn {
+		background-color: #498693;
+		border-color: #498693;
+	}
+
+	.reviewGroupBtn:hover {
+		background-color: #EAB965;
+		border-color: #EAB965;
+	}
+
+	.btn.chat {
+
+	}
+
+	.btn.chat:hover{
+		transform: scale(1.2 , 1.2);
+		transition: 0.2s all;
+	}
+
+	.reviewSubmit {
+		display: contents;
+	}
+
+	#star {
+		margin: 0 auto;
+	}
+
+	#quitModal {
+		color: black;
+	}
+	
+	#DismissModalCenterTitle{
+		color: black;
+	}

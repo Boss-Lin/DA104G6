@@ -1,0 +1,100 @@
+
+    @keyframes move_wave {
+        0% {
+            transform: translateX(0) translateZ(0) scaleY(1)
+        }
+        50% {
+            transform: translateX(-25%) translateZ(0) scaleY(0.55)
+        }
+        100% {
+            transform: translateX(-50%) translateZ(0) scaleY(1)
+        }
+    }
+    .waveWrapper {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        margin: auto;
+    }
+    .waveWrapperInner {
+        position: absolute;
+        width: 100%;
+        overflow: hidden;
+        height: 100%;
+        bottom: -1px;
+        background-image: linear-gradient(to top, #a3e8df 20%, #f8ea8c 80%);
+    }
+    .bgTop {
+        z-index: 15;
+        opacity: 0.5;
+    }
+    .bgMiddle {
+        z-index: 10;
+        opacity: 0.75;
+    }
+    .bgBottom {
+        z-index: 5;
+    }
+    .wave {
+        position: absolute;
+        left: 0;
+        width: 200%;
+        height: 100%;
+        background-repeat: repeat no-repeat;
+        background-position: 0 bottom;
+        transform-origin: center bottom;
+    }
+    .waveTop {
+        background-size: 50% 100px;
+    }
+    .waveAnimation .waveTop {
+        animation: move-wave 3s;
+        -webkit-animation: move-wave 3s;
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
+    }
+    .waveMiddle {
+        background-size: 50% 120px;
+    }
+    .waveAnimation .waveMiddle {
+        animation: move_wave 10s linear infinite;
+    }
+    .waveBottom {
+        background-size: 50% 100px;
+    }
+    .waveAnimation .waveBottom {
+        animation: move_wave 15s linear infinite;
+    }
+
+    /*登入欄*/
+
+    #ManagerLogin {
+        z-index: 100;
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 50px;
+        border-radius: 30px;
+        color: #0c5460;
+        font-family: "Noto Bold", sans-serif;
+    }
+
+    #ManagerLogin img {
+        width: 150px;
+        margin-bottom: 1em;
+    }
+
+    .btn.btn-primary {
+        background-color: #8fd19e;
+        border-color: #8fd19e;
+    }
+
+    .btn.btn-primary:active:hover,
+    .btn.btn-primary:hover {
+        background-color: #EAB965;
+        border-color: #EAB965;
+    }
+
+
+    /*登入欄*/

@@ -1,0 +1,38 @@
+    a {
+        color: #1c7430;
+        transition: 0.3s all;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #8fd19e;
+    }
+
+    #MemBlogScroll {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 730px;
+    }
+
+    .card-img-top {
+        min-height: 223px;
+        max-height: 223px;
+        transition: 0.5s all;
+        object-fit: cover;
+    }
+
+    .card-img-top:hover {
+        filter: blur(1px);
+    }
+
+    .card-text {
+        overflow: hidden;
+        max-height: 120px;
+    }
+
+    .card-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 559px;
+    }

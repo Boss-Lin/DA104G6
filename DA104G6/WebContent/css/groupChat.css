@@ -1,0 +1,227 @@
+
+    body {
+        font-family: "Noto Bold", sans-serif;
+        color: #FFF;
+    }
+
+    .bg {
+        animation:slide 3s ease-in-out infinite alternate;
+        background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+        bottom:0;
+        left:-50%;
+        opacity:.5;
+        position:fixed;
+        right:-50%;
+        top:0;
+        z-index:-1;
+    }
+
+    .bg2 {
+        animation-direction:alternate-reverse;
+        animation-duration:4s;
+    }
+
+    .bg3 {
+        animation-duration:5s;
+    }
+
+    /*.content {*/
+    /*    background-color:rgba(255,255,255,.8);*/
+    /*    border-radius:.25em;*/
+    /*    box-shadow:0 0 .25em rgba(0,0,0,.25);*/
+    /*    box-sizing:border-box;*/
+    /*    left:50%;*/
+    /*    padding:10vmin;*/
+    /*    position:fixed;*/
+    /*    text-align:center;*/
+    /*    top:50%;*/
+    /*    transform:translate(-50%, -50%);*/
+    /*}*/
+
+    @keyframes slide {
+        0% {
+            transform:translateX(-25%);
+        }
+        100% {
+            transform:translateX(25%);
+        }
+    }
+
+
+    #messagesArea{
+        width: 800px;
+        height: 745px;
+        overFlow-y: auto;
+
+    }
+    #message{
+        resize: none;
+        display: inline;
+        width: 600px;
+        height: 38px;
+        margin-bottom: -15px;
+    }
+
+    .myMessage{
+        float: right;
+        word-break: break-all;
+        max-width: 623px;
+        background-color: lightgreen;
+        border-radius: 10px;
+        font-size: 20px;
+        margin-right: 35px;
+        padding: 2px 20px;
+        color: #000;
+        position: relative;
+    }
+    .myName{
+        float: right;
+        font-size: 15px;
+    }
+    .myName img{
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        float: right;
+        border-radius: 100%;
+    }
+
+    .myMessageOut{
+        width: 100%;
+        float: right;
+        height: fit-content;
+        margin-top: 20px;
+        padding: 0;
+    }
+    .otherMessageOut{
+        width: 100%;
+        margin-top: 20px;
+        height: fit-content;
+        padding: 0;
+        float: left;
+    }
+
+    .otherMessage{
+        background-color: lightgreen;
+        border-radius: 10px;
+        font-size: 20px;
+        float: left;
+        padding: 2px 20px;
+        width: fit-content;
+        margin-left: 35px;
+        color: #000;
+        word-break: break-all;
+        max-width: 623px;
+        position: relative;
+    }
+
+    .otherName{
+        float: left;
+        font-size: 15px;
+    }
+
+    .otherName img{
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        float: left;
+        border-radius: 100%;
+    }
+
+    .online{
+        text-align: center;
+        color: darkgray;
+        font-size: 15px;
+    }
+
+    .arrowRight {
+        position: absolute;
+        right: -14px;
+    }
+
+    .arrowLeft {
+        position: absolute;
+        left: -14px;
+    }
+
+    .panel{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #memberList img {
+        width: 70px;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+
+    .private {
+        margin-bottom: 2vh;
+        font-size: 28px;
+        transition: 0.2s all;
+    }
+
+    .private:hover {
+        cursor: pointer;
+        color: lightgreen;
+    }
+
+    #OnlineIcon {
+        width: 16px !important;
+        height: 16px !important;
+        margin: 0 0 3px 3px;
+    }
+    
+    .messageImage {
+    	max-width: 580px;
+    	max-height: 580px;    
+    }
+
+    #memberList {
+        margin-top: 10vh;
+        height: 85vh;
+        overflow-y: auto;
+        padding: 20px;
+        background-color: rgba(0,0,0,0.7);
+        border-radius: 20px;
+    }
+
+    #ChatRoom {
+        min-height: 85vh;
+        margin-top: 10vh;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 10px;
+
+    }
+
+    .btn.btn-primary {
+        background-color: #8fd19e;
+        border-color: #8fd19e;
+    }
+
+    .btn.btn-primary:hover {
+        background-color: #EAB965;
+        border-color: #EAB965;
+    }
+
+    /* width */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+

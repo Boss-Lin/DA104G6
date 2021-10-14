@@ -1,0 +1,117 @@
+
+    .bg {
+        animation:slide 3s ease-in-out infinite alternate;
+        background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+        bottom:0;
+        left:-50%;
+        opacity:.5;
+        position:fixed;
+        right:-50%;
+        top:0;
+        z-index:-1;
+    }
+
+    .bg2 {
+        animation-direction:alternate-reverse;
+        animation-duration:4s;
+    }
+
+    .bg3 {
+        animation-duration:5s;
+    }
+
+    .content {
+        background-color:rgba(255,255,255,.8);
+        border-radius:.25em;
+        box-shadow:0 0 .25em rgba(0,0,0,.25);
+        box-sizing:border-box;
+        left:50%;
+        padding:10vmin;
+        position:fixed;
+        text-align:center;
+        top:50%;
+        transform:translate(-50%, -50%);
+    }
+
+    @keyframes slide {
+        0% {
+            transform:translateX(-25%);
+        }
+        100% {
+            transform:translateX(25%);
+        }
+    }
+
+    /*直播左側*/
+
+
+
+
+    #memberList {
+        margin-top: 10vh;
+        height: 25vh;
+        padding: 20px;
+        background-color: rgba(0,0,0,0.7);
+        border-radius: 20px;
+    }
+
+    #StreamerPic img {
+        width: 60px;
+        height: 60px;
+        border-radius: 100%;
+    }
+
+    #StreamerName {
+        font-family: "Noto Bold", sans-serif;
+        color: #fff;
+        font-size: 28px;
+    }
+
+    #FollowBtn .btn{
+        background-color: #8fd19e;
+        border-color: #8fd19e;
+        transition: 0.3s all;
+        font-family: "Noto Medium", sans-serif;
+        font-size: 22px;
+        color: #2F4858;
+    }
+
+    #FollowBtn .btn:hover {
+        background-color: #EAB965;
+        border-color: #EAB965;
+        color: #FFF;
+    }
+
+    /*直播左側*/
+
+
+    /*直播右側*/
+
+    #messagesArea {
+        min-height: 85vh;
+        margin-top: 10vh;
+        /*padding: 20px;*/
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 10px;
+
+    }
+
+    #ChatHistory {
+        height: 78vh;
+        overflow: scroll;
+
+    }
+
+    #TextBox {
+        height: 6vh;
+        padding: 0;
+    }
+
+    #InputText {
+        width: 84%;
+        height: 100%;
+        margin: 5px;
+    }
+
+    /*直播右側*/
+

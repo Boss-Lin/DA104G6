@@ -1,0 +1,179 @@
+
+	body {
+		font-family: "Noto Bold", sans-serif;
+	}
+
+	#header{
+		height: 54vh;
+		background: url("/DA104G6/images/bikeStock14-1.jpg") center center / cover ;
+	}
+
+	#selecterror{
+		text-align:center;
+	}
+
+	#selecterror b{
+		font-size: 30px;
+		color: #000;
+	}
+
+	#points b{
+		font-size: 50px;
+		color: black;
+	}
+
+	#points img{
+		margin-top: -20px;
+		height: 50px;
+		height: 50px;
+	}
+
+	#shop{
+		background: url("/DA104G6/images/shopWoodBack.jpg")center center / cover ;
+	}
+
+	.item figure {
+		width: 287px;
+		height: 287px;
+		overflow: hidden;
+	}
+
+	.item {
+		min-height: 395px;
+		max-height: 410px;
+	}
+
+	.item img {
+		width: 287px;
+	}
+
+	.product a {
+		color: #000;
+	}
+
+	.product a:hover {
+		text-decoration: none;
+	}
+
+	.item figure{
+		transition: 0.3s all;
+
+	}
+
+	.product:hover figure{
+		box-shadow:5px 5px 6px 3px #999999;
+	}
+
+
+	#producttitle{
+		color: 	#977C00;
+		font-size: 50px;
+		text-align: center;
+		font-weight:bold;
+	}
+
+	.img-product{
+		width: 600px;
+		height: 600px;
+		box-shadow:5px 5px 6px 3px #999999
+	}
+
+	#productmessage{
+	}
+
+	#productmessage p{
+		font-size: 24px;
+	}
+
+	#message{
+		font-size: 25px;
+	}
+
+	.qty {
+	  width: 40px;
+	  height: 40px;
+	  text-align: center;
+	  border: 1px;
+	  border-top: 1px solid #aaa;
+	  border-bottom: 1px solid #aaa;
+	}
+
+	input.qtyplus {
+	  width: 40px;
+	  border: 1px solid #aaa;
+	  background: #f8f8f8;
+	}
+
+	input.qtyminus {
+	  width: 40px;
+	  border: 1px solid #aaa;
+	  background: #f8f8f8;
+	}
+
+	#addbuttin{
+	  margin-top: 5px;
+	  font-size: 20px;
+	}
+
+	#productreview b {
+		font-size: 40px;
+		color: #000;
+	}
+
+	#review{
+		font-size: 25px;
+		background-color:#ACD6FF;
+		margin-top: 10px;
+		border-radius:45px;
+	}
+
+	#review img{
+		width: 100px;
+		height: 100px;
+		object-fit: cover;
+		border-radius: 100%;
+	}
+
+	.table td {
+		vertical-align: middle;
+	}
+
+	.table a {
+		color: #000;
+		transition: 0.3s all;
+	}
+
+	.table a:hover {
+		color: #666;
+		text-decoration: none;
+	}
+
+	#CartCol {
+		background: url("/DA104G6/images/shopWoodBack.jpg")center center / cover ;
+	}
+
+	.removeProduct {
+		background-color: #e13d4a;
+		border-color: #e13d4a;
+	}
+
+	#ContinueShop {
+		color: white;
+		height: 80px;
+		font-size: 2em;
+	}
+
+
+
+	#ConfirmOrder {
+		background-color: #5555FF;
+		border-color: #5555FF;
+		color: white;
+		height: 80px;
+		font-size: 2em;
+	}
+
+	#ConfirmOrder:hover {
+		background-color: #7abaff;
+		border-color: #7abaff;
+	}

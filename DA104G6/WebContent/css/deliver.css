@@ -1,0 +1,72 @@
+    body {
+        font-family: "Noto Bold", sans-serif;
+    }
+
+    #Title {
+        font-family: "Noto Bold", sans-serif;
+        color: #0b2e13;
+        margin-top: 1vh;
+        margin-bottom: 5vh;
+    }
+
+    #Control-panel .btn.btn-outline-info {
+        border-color: #0c5460;
+        color: #0c5460;
+    }
+
+    #Control-panel .btn.btn-outline-info:active:hover,
+    #Control-panel .btn.btn-outline-info:hover{
+        background-color: #0c5460;
+        color: #FFF;
+    }
+
+    #ProductListTable img{
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    #ProductListTable a {
+         font-size: 24px;
+         color: #0c5460;
+     }
+
+    #ProductListTable a:hover {
+        color: #498693;
+        text-decoration: none;
+    }
+
+    #PageAndTotalCount {
+        font-size: 28px;
+    }
+
+    table {
+        font-family: "Noto Bold", sans-serif;
+        font-size: 21px;
+    }
+
+    table th,td {
+        vertical-align: middle !important;
+    }
+
+    table .btn.btn-info {
+        background-color: #1b1e21;
+        border-color: #1b1e21;
+    }
+
+    table .btn.btn-info:active:hover,
+    table .btn.btn-info:hover {
+        background-color: #EAB965;
+        border-color: #EAB965;
+    }
+
+    .btn.btn-info {
+        background-color: #1b1e21;
+        border-color: #1b1e21;
+    }
+
+    .btn.btn-info:active:hover,
+    .btn.btn-info:hover {
+        background-color: #EAB965;
+        border-color: #EAB965;
+    }
+

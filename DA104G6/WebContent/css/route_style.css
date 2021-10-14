@@ -1,0 +1,138 @@
+    body {
+        font-family: "Noto Bold", sans-serif;
+    }
+
+    .container-fluid {
+        background: url('../images/7.jpg') bottom center / cover;
+
+    }
+
+    .jumbotron {
+        background: url('../images/3.jpg') bottom center / cover;
+    }
+
+    .jumbotron .container {
+        padding-top: 150px;
+        color: #FFF;
+    }
+
+    .navbar {
+        background-color: rgba(10, 10, 10, 0.5);
+    }
+
+    .path {
+        background-color: transparent;
+    }
+
+    .path .breadcrumb {
+        background-color: transparent;
+    }
+
+    #RoutePaging {
+        margin: auto;
+    }
+
+    #RouteCategory {
+        font-size: 16px;
+        background: transparent;
+    }
+
+    #RouteCategory .list-group {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #333;
+        border: double;
+        border-color: #333;
+    }
+
+    .list-group a {
+        background-color: rgba(10, 100, 100, 0.3);
+    }
+
+    #RouteInfo img {
+        width: 400px;
+        height: 250px;
+        border: 2px outset #ccc;
+        padding: 2px;
+        box-sizing: border-box;
+        filter: drop-shadow(5px 8px 4px #336);
+        transition: all 0.8s;
+    }
+
+    img:hover {
+        transform: scale(1.03, 1.03);
+        cursor: pointer;
+    }
+
+    .card a:hover {
+        text-decoration: none;
+    }
+
+    #CardText {
+        height: 100px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-overflow: ellipsis;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+    }
+    .card-body{
+    	background: url('../images/5.jpg') bottom center / cover;
+    }
+
+	#goforadd {
+	  width: 200px;
+	  height: 60px;
+	  outline: none;
+	  background: linear-gradient(to right, rgba(10, 100, 100, 0.3) 50%, #0F5D7A 50%);
+	  background-size: 200% 100%;
+	  background-position: right bottom;
+	  color: #fff;
+	  transition: all 0.5s ease;
+	  border: none;
+	  border-left: 10px solid rgba(10, 100, 100, 0.3);
+	  border-radius: 4px;
+	  -webkit-box-shadow: 10px 17px 32px -16px rgba(0, 0, 0, 0.75);
+	  -moz-box-shadow: 10px 17px 32px -16px rgba(0, 0, 0, 0.75);
+	  box-shadow: 10px 17px 32px -16px rgba(0, 0, 0, 0.75);
+	  font-size: 20px;
+	  font-weight: bold;
+	  letter-spacing: 1px;
+	}
+	#goforadd:hover {
+	  background-position: left bottom;
+	  color: #000;
+	  border-color: #177E70;
+	  height: 200px;
+	  width: 200px;
+	  border-radius: 100%;
+	  border: 10px solid #0F5D7A;
+	}
+    #btndetail {
+	  border-color: #3498db;
+	  color: #fff;
+	  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+	  transition: all 150ms ease-in-out;
+	  box-sizing: border-box;
+	  background-color: transparent;
+	  border: 2px solid lightcyan;
+	  border-radius: 0.6em;
+	  cursor: pointer;
+	  display: flex;
+	  padding: 0.8em 0.8em;
+	  text-align: center;
+	}
+	#btndetail:hover, #btndetail:focus {
+	  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+	  color: #fff;
+	  outline: 0;
+	}
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+    ::-webkit-scrollbar-thumb {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }

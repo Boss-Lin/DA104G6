@@ -1,0 +1,111 @@
+	body {
+		font-family: "Noto Bold", sans-serif;
+	}
+	
+	#Header img {
+		width: 70px;
+		height: 70px;
+		margin: 15px 40px;
+	}
+	
+	#Header h1 {
+		margin: 25px 25px;
+	}
+	
+	#Routeindex {
+		background: url('../images/7.jpg') no-repeat center center/cover;
+	}
+	
+	#routebackground {
+		background-color: rgba(50, 50, 50, 0.3)
+	}
+	
+	#pills-home {
+		height: 687px;
+		width: 430px;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	
+	#pills-home-tab {
+		align-items: center;
+	}
+	
+	#pills-profile{
+		height: 687px;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+	
+	#showphoto {
+		width: 400px;
+		height: 250px;
+		border: 3px double #333;
+		margin: 2% 7%;
+	}
+ 
+    #recovery:hover {
+    	color: rgba(50,250,50,0.8);
+    }
+    #cancelrecovery:hover {
+    	color: rgba(50,250,50,0.8);
+    }
+    #clearall:hover {
+    	color: rgba(50,250,50,0.8);
+    }
+    
+    #exampleModalCenter form{
+		background : url('../images/1.jpg') no-repeat bottom center/cover;
+	}
+	#exampleModalheader{
+		background : url('../images/1.jpg') top center/cover;
+	}
+	#modalBtn{
+		background-color: #ae0000;
+	}
+	
+	#goforroute {
+	  width: 150px;
+	  height: 50px;
+	  outline: none;
+	  background: linear-gradient(to right, rgba(10, 100, 100, 0.3) 50%, #0F5D7A 50%);
+	  background-size: 200% 100%;
+	  background-position: right bottom;
+	  color: #fff;
+	  transition: all 0.5s ease;
+	  border: none;
+	  border-left: 10px solid rgba(10, 100, 100, 0.3);
+	  border-radius: 4px;
+	  -webkit-box-shadow: 10px 17px 32px -16px rgba(0, 0, 0, 0.75);
+	  -moz-box-shadow: 10px 17px 32px -16px rgba(0, 0, 0, 0.75);
+	  box-shadow: 10px 17px 32px -16px rgba(0, 0, 0, 0.75);
+	  font-size: 14px;
+	  font-weight: bold;
+	  letter-spacing: 1px;
+	  position:fixed;
+	  top: 85%;
+	  left: 92%;
+	  z-index: 1;
+	}
+	#goforroute:hover {
+	  background-position: left bottom;
+	  color: #000;
+	  border-color: #177E70;
+	  height: 150px;
+	  width: 150px;
+	  border-radius: 100%;
+	  border: 10px solid #0F5D7A;
+	}
+	#map { 
+            height: 768px; 
+            width: 100%;
+        }
+        #checkPoint{
+            height: auto;
+        }
+        #createSubmit{
+            margin-top: 10px;
+        }
+        #address{
+        	margin: 10px 0px;
+        }

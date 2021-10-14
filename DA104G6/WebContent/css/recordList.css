@@ -1,0 +1,101 @@
+    body {
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        color: #0c5460;
+        font-family: "Noto Bold", sans-serif;
+        background: linear-gradient(-45deg, #E1AB2E , #E1AB2E ,  #F4A4A4 , #F4A4A4);
+        background-size: 400% 400%;
+        animation: gradientBG 15s ease infinite;
+    }
+
+    @keyframes gradientBG {
+        0% {
+            background-position: 0 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0 50%;
+        }
+    }
+
+    #RecordPage {
+        margin-top: 11vh;
+        margin-bottom: 2.5vh;
+        background-color: rgba(255, 248, 230, 0.5);
+        border-radius: 20px;
+    }
+
+    #Control-panel .btn.btn-outline-info {
+        border-color: #0c5460;
+        color: #0c5460;
+    }
+
+    #Control-panel .btn.btn-outline-info:active:hover,
+    #Control-panel .btn.btn-outline-info:hover{
+        background-color: #0c5460;
+        color: #FFF;
+    }
+
+    #RecordList table img{
+        max-width: 150px;
+        max-height: 150px;
+    }
+    #RecordList table td img {
+        border: 3px solid #FFF;
+    }
+
+    #RecordList a {
+        font-size: 24px;
+        color: #0c5460;
+    }
+
+    #RecordList a:hover {
+        color: #498693;
+        text-decoration: none;
+    }
+
+    #PageAndTotalCount {
+        font-size: 28px;
+    }
+
+    table {
+        font-family: "Noto Bold", sans-serif;
+        font-size: 20px;
+    }
+
+    table td {
+        color: #0c5460;
+    }
+
+    table th,td {
+        vertical-align: middle !important;
+    }
+
+    table .btn.btn-info {
+        background-color: #498693;
+        border-color: #498693;
+    }
+
+    table .btn.btn-info:active:hover,
+    table .btn.btn-info:hover {
+        background-color: #EAB965;
+        border-color: #EAB965;
+    }
+
+    .btn.btn-info {
+        background-color: #498693;
+        border-color: #498693;
+    }
+
+    .btn.btn-info:active:hover,
+    .btn.btn-info:hover {
+        background-color: #EAB965;
+        border-color: #EAB965;
+    }
+
+    .modal-footer .btn-primary {
+        font-size: 16px;
+    }

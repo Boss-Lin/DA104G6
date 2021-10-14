@@ -1,0 +1,28 @@
+	.updateBody{
+		margin: 0;
+		font-size: 20px;
+		color: #FFF;
+	}
+	.updateCon{
+		margin: 0;
+	}
+	#tableBody{
+		margin-right: -32px;
+		font-family: "Noto Bold", sans-serif;
+	}
+	#update_btn{
+		margin-bottom: 2px;
+	}
+	.updateForm{
+		display: inline;
+	}
+
+	.updateGroupBtn {
+		background-color: #498693;
+		border-color: #498693;
+	}
+
+	.updateGroupBtn:hover {
+		background-color: #EAB965;
+		border-color: #EAB965;
+	}

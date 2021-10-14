@@ -1,0 +1,100 @@
+    body {
+        background: url("/DA104G6/images/BlogBack.png");
+        font-family: "Noto Bold", sans-serif;
+    }
+
+    .btn.btn-outline-light {
+        color: #000;
+        border-color: #000;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,0.62);
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #8fd19e;
+        transition: 0.2s color;
+    }
+
+    .breadcrumb {
+        font-size: 18px;
+        color: #1c7430;
+    }
+
+    #KeywordBox {
+        display: inline-block;
+        width: 20em;
+        height: 42px;
+    }
+
+    #KeywordSearch {
+        background-color: #8fd19e;
+        border-color: #8fd19e;
+        font-size: 18px;
+        margin-bottom: 2px;
+    }
+
+    #KeywordSearch:hover {
+        background-color: #EAB965;
+        border-color: #EAB965;
+    }
+
+    a {
+        color: #1c7430;
+        transition: 0.3s all;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #8fd19e;
+    }
+
+    .card-img-top {
+        min-height: 223px;
+        max-height: 223px;
+        transition: 0.5s all;
+        object-fit: cover;
+    }
+
+    .card-img-top:hover {
+        filter: blur(1px);
+    }
+
+    .card-text {
+        overflow: hidden;
+        max-height: 120px;
+    }
+
+    .card-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 559px;
+    }
+
+    .newTitle {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 245px;
+    }
+
+    .goBtn {
+        background-color: #b2ddd9;
+        border-color: #b2ddd9;
+    }
+
+    .goBtn:hover {
+        background-color: #5f7f7b;
+        border-color: #5F7F7B;
+    }
+    
+    .btn.control {
+        border: none;
+        transition: 0.2s all;
+    }
+
+    .btn.control:hover {
+        transform: scale(1.1 , 1.1);
+    }

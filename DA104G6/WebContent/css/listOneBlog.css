@@ -1,0 +1,103 @@
+    body {
+        background: url("/DA104G6/images/BlogBack.png");
+        font-family: "Noto Bold", sans-serif;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .btn.btn-outline-light {
+        color: #000;
+        border-color: #000;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,0.62);
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #8fd19e;
+        transition: 0.2s color;
+    }
+
+    .breadcrumb {
+        font-size: 18px;
+        color: #1c7430;
+    }
+
+    .btn.control {
+        border: none;
+        transition: 0.2s all;
+    }
+
+    .btn.control:hover {
+        transform: scale(1.1 , 1.1);
+    }
+
+    a {
+        color: #1c7430;
+        transition: 0.3s all;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #8fd19e;
+    }
+
+    .card-img-top {
+        object-fit: cover;
+        max-width: 100%;
+        height: 350px;
+    }
+
+    .card-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 559px;
+    }
+
+    .newTitle {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 245px;
+    }
+
+    .goBtn {
+        background-color: #b2ddd9;
+        border-color: #b2ddd9;
+    }
+
+    .goBtn:hover {
+        background-color: #5f7f7b;
+        border-color: #5F7F7B;
+    }
+
+    .commentImg {
+        max-width: 150px;
+        vertical-align: top;
+    }
+
+    #commentTable {
+        width: 100%;
+    }
+
+    #FooterCol p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+
+    .UploadButton {
+        width: 30px;
+        height: 30px;
+    }
+
+    #Blog_Cont {
+        line-height: 40px;
+    }
+
+    #Blog_Cont img {
+        max-width: 100%;
+    }

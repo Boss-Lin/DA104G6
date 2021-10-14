@@ -1,0 +1,58 @@
+    body {
+        font-family: "Noto Bold", sans-serif;
+    }
+
+    #Title {
+        font-family: "Noto Bold", sans-serif;
+        color: #0b2e13;
+        margin-top: 1vh;
+        margin-bottom: 5vh;
+    }
+
+    #ManagerProfile{
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        padding: 30px;
+        min-height: 52vh;
+    }
+
+    #ManagerPermission {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        padding: 30px;
+    }
+
+    #ManagerPasswordUpdate {
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 30px;
+        padding: 30px;
+        min-height: 38vh;
+    }
+
+    #ProductPic {
+        max-width: 300px;
+        max-height: 300px;
+        border: 5px solid #000;
+        border-radius: 10px;
+    }
+
+    #UploadButton {
+        width: 30px;
+        height: 30px;
+    }
+
+    textarea {
+        resize: none;
+    }
+
+    .btn.btn-info {
+        background-color: #0c5460;
+        border-color: #0c5460;
+    }
+
+    .btn.btn-info:active:hover,
+    .btn.btn-info:hover {
+        background-color: #498693;
+        border-color: #498693;
+    }
+

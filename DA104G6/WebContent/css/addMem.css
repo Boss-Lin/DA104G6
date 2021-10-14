@@ -1,0 +1,81 @@
+    body {
+        background: url("/DA104G6/images/bikeStock13.jpg") center center / cover;
+    }
+
+    /*登入燈箱*/
+
+    #LoginBox .btn-primary{
+        background-color: #8fd19e;
+        border: 0;
+        transition: 0.3s all;
+    }
+
+    #LoginBox .btn-primary:hover{
+        background-color: #EAB965;
+    }
+
+    /*登入燈箱*/
+
+    /*錯誤訊息*/
+
+    #ErrorMsg {
+        font-family: "Noto Bold", sans-serif;
+        font-size: 26px;
+        color: #cc2357;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-top: 10vh;
+    }
+
+    /*錯誤訊息*/
+
+
+    /*註冊欄*/
+
+    .form-group {
+        margin-bottom: 0.5em;
+    }
+
+    #ProfilePicPreview {
+        width: 160px;
+        height: 160px;
+    }
+
+    #ProfilePicPreview img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    #RegisterCol {
+        font-family: "Noto", sans-serif;
+        color: #FFF;
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-top: 10vh;
+    }
+
+    #UploadButton {
+        width: 30px;
+        height: 30px;
+    }
+
+    #RegisterCol .btn {
+        background-color: #8fd19e;
+        border:0 ;
+        transition: 0.2s all;
+    }
+
+    #AutoFill .btn {
+        background-color: #7abaff;
+        color: #FFF;
+        transition: 0.2s all;
+    }
+
+
+    #RegisterCol .btn:hover {
+        cursor: pointer;
+        background-color: #EAB965;
+    }
+
+
+
+
+    /*註冊欄*/

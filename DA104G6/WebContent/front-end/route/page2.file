@@ -1,0 +1,34 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<nav aria-label="Page navigation example" id="RoutePaging">
+	<ul class="pagination justify-content-center">
+  <%if (rowsPerPage<rowNumber) {%>
+    <%if(pageIndex>=rowsPerPage){%>
+        <li class="page-item"><A class="page-link" href="<%=request.getRequestURI()%>?whichPage=1">至第一頁</A>&nbsp;</li>
+        <li class="page-item"><A class="page-link" href="<%=request.getRequestURI()%>?whichPage=<%=whichPage-1%>">上一頁 </A>&nbsp;</li>
+    <%}%>
+  
+    <%if(pageIndex<pageIndexArray[pageNumber-1]){%>
+        <li class="page-item"><A class="page-link" href="<%=request.getRequestURI()%>?whichPage=<%=whichPage+1%>">下一頁 </A>&nbsp;</li>
+        <li class="page-item"><A class="page-link" href="<%=request.getRequestURI()%>?whichPage=<%=pageNumber%>">至最後一頁</A>&nbsp;</li>
+    <%}%>
+  <%}%>  
+</ul>
+</nav>
+
+<ul class="pagination justify-content-center">
+	<%if (pageNumber>1) {%>
+	    <FORM METHOD="post" ACTION="<%=request.getRequestURI()%>">   
+	       <select size="1" name="whichPage">
+	         <%for (int i=1; i<=pageNumber; i++){%>
+	            <option value="<%=i%>">跳至第<%=i%>頁
+	         <%}%> 
+	       </select>
+	       <input type="submit" value="確定" >  
+	    </FORM>
+	  <%}%>
+</ul>
+
+
+  
+  

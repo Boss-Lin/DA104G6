@@ -1,0 +1,109 @@
+    body {
+        background: url("/DA104G6/images/BlogBack.png");
+        font-family: "Noto Bold", sans-serif;
+    }
+
+    .btn.btn-outline-light {
+        color: #000;
+        border-color: #000;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,0.62);
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        color: #8fd19e;
+        transition: 0.2s color;
+    }
+
+    #textBox {
+        margin-top: 30px;
+        background: url("/DA104G6/images/EditorBack.png");
+        position: relative;
+        border: 15px solid silver;
+        border-radius: 20px;
+    }
+
+    .UploadButton {
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn-info {
+        background-color: #1c7430;
+        border-color: #1c7430;
+    }
+
+    .btn-info:hover {
+        background-color: #8fd19e;
+        border-color: #8fd19e;
+    }
+
+    .card-img-top {
+        width: 100%;
+        object-fit: cover;
+        height: 303px;
+    }
+
+    #Editor {
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        height: 40vh;
+        max-width: 900px;
+        background-color: #FFF;
+        overflow-y: auto;
+    }
+
+    .ql-toolbar {
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        background-color: #FFF;
+    }
+
+    .ql-editor {
+        font-family: "Noto Bold", sans-serif;
+        font-size: 16px;
+    }
+
+    .card-text {
+        overflow: hidden;
+        max-height: 95px;
+    }
+
+    .card-title {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 559px;
+    }
+
+    .newTitle {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 245px;
+    }
+
+    .btn-primary {
+        width: 90px;
+        font-size: 1.5em;
+        background-color: #8fd19e;
+        border-color: #8fd19e;
+    }
+
+    .btn-primary:hover {
+        background-color: #EAB965;
+        border-color: #EAB965;
+    }
+
+
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+    ::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+    ::-webkit-scrollbar-thumb {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    }

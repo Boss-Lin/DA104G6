@@ -1,0 +1,48 @@
+    /*會員中間開始*/
+
+    #Order_MasterScroll {
+        margin-right: -36px;
+        margin-left: -30px;
+    }
+
+    #Order_MasterScroll .col-12 {
+        overflow-x: hidden;
+        overflow-y: scroll;
+        height: 760px;
+    }
+
+    #MyOrder {
+        font-family: "Noto Bold", sans-serif;
+    }
+
+    #MyOrder table thead {
+        margin: auto;
+        font-size: 20px;
+    }
+
+    #MyOrder table th {
+        border-top: 0;
+        border-bottom: 0;
+    }
+
+    #MyOrder table th,td {
+        vertical-align: middle !important;
+    }
+
+    #MyOrder table td {
+        color: #FFF;
+        font-size: 20px;
+    }
+
+    #MyOrder table td img {
+        border: 3px solid #FFF;
+    }
+
+    .orderDetailBtn {
+        background-color: #498693;
+        border-color: #498693;
+        width: 120px;
+        font-size: 22px;
+    }
+
+

@@ -1,0 +1,99 @@
+
+	body {
+		margin: 0;
+		width: 100%;
+		height: 100vh;
+		color: #333;
+		font-family: "Noto Bold", sans-serif;
+		background:linear-gradient(135deg, #9abdeb 0%,#80f9b7 100%);
+		background-size: 100% 150%;
+	}
+
+
+	#GroupCoverCol {
+		height: 400px;
+		overflow: hidden;
+		position: relative;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#GroupCoverCol img {
+		width: 1903px;
+		position: absolute;
+		top: -9999px;
+		bottom: -9999px;
+		left: -9999px;
+		right: -9999px;
+		margin: auto;
+	}
+
+	#GroupFile {
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 30px;
+	}
+
+	#ControlPanel {
+		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 30px;
+
+	}
+
+	#MapPage {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	#map {
+		width: 100%;
+		height: 720px;
+	}
+
+	.Onetitle {
+		background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+		margin-bottom: 1px;
+		padding: 10px 50px;
+	}
+
+	#bug {
+		background-color: rgba(255, 255, 255, 0);
+		border-style: hidden;
+		border-radius: 50%;
+		float: right;
+	}
+
+	#bugModal .btn.btn-secondary {
+		width: 56px;
+		height: 36px;
+		font-size: 1em;
+	}
+
+
+	.errReport {
+		color: red;
+	}
+
+	.submitOne {
+		display: inline;
+	}
+
+	.table tr {
+		color: #333;
+		font-size: 24px;
+	}
+
+	.btn.control {
+		border: none;
+		font-size: 22px;
+		transition: 0.2s all;
+	}
+
+	.btn.control img {
+		width: 100px;
+		height: 100px;
+	}
+
+	.btn.control:hover {
+		transform: scale(1.1 , 1.1);
+		color: #EAB965;
+	}
